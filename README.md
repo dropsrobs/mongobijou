@@ -1,7 +1,12 @@
 # mongobijou
 
 This gem is mongoDB mapper that allows you to save, destroy and load any object with self-defined nested attributes. You also do not have to use any specific keywords that describes your instance attributes or even include modules on lower levels of defined object.
-The only restriction is, that objects you want to save/load, cannot have initializers with arguments-passing.
+
+Attention!
+
+At this moment, gem is made for self-use only. **No tests are provided for this code!**
+
+At actual version the only restriction is, that objects you want to save/load, cannot have initializers with arguments-passing.
 
 Below are few examples of using gem.
 
